@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SANY - Your Mental Health Ally</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="SANY Logo">
+    </div>
+    <h1 class="title">SANY</h1>
+    <p class="subtitle">Your Mental Health Ally</p>
+    <div class="buttons">
+      <button class="btn login">Login</button>
+      <button class="btn register">Register</button>
+    </div>
+  </div>
+</body>
+</html>
