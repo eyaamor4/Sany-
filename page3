@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un compte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Account</h1>
+        <p>Welcome</p>
+        <form id="signupForm">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <div class="dob">
+                <select id="month" required>
+                    <option value="" disabled selected>MM</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <!-- Add remaining months -->
+                </select>
+                <select id="day" required>
+                    <option value="" disabled selected>DD</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <!-- Add remaining days -->
+                </select>
+                <select id="year" required>
+                    <option value="" disabled selected>YYYY</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <!-- Add more years -->
+                </select>
+            </div>
+            <div class="role">
+                <label>
+                    <input type="radio" name="role" value="Parent" required>
+                    Parent
+                </label>
+                <label>
+                    <input type="radio" name="role" value="College Student">
+                    College Student
+                </label>
+                <label>
+                    <input type="radio" name="role" value="High School Student">
+                    High School Student
+                </label>
+            </div>
+            <button type="submit" class="btn">Sign up</button>
+        </form>
+        <p>Already have an account</p>
+        <p>Or continue with</p>
+        <div class="social-icons">
+            <button class="google">G</button>
+            <button class="facebook">F</button>
+            <button class="apple"></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
