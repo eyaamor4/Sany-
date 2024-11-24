@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-header">
+      <h2>Login here</h2>
+      <p>Welcome back, you've been missed!</p>
+    </div>
+    <a href="#" class="forgot-password">Forgot your password?</a>
+    <form class="login-form">
+      <input type="email" placeholder="Email" class="input-field">
+      <input type="password" placeholder="Password" class="input-field">
+      <button type="submit" class="btn login-btn">Sign in</button>
+    </form>
+    <p class="create-account">Create new account</p>
+    <div class="social-login">
+      <p>Or continue with</p>
+      <div class="social-icons">
+        <img src="google-icon.png" alt="Google">
+        <img src="facebook-icon.png" alt="Facebook">
+        <img src="apple-icon.png" alt="Apple">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
