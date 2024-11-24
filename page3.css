@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #2a7c46;
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 10px 0;
+    color: #555555;
+}
+
+input, select, .btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.role {
+    text-align: left;
+}
+
+.btn {
+    background-color: #2a7c46;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #236a3b;
+}
+
+.social-icons button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background: #f0f0f0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-icons .google { color: #4285F4; }
+.social-icons .facebook { color: #3b5998; }
+.social-icons .apple { color: #000000; }
