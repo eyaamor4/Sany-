@@ -1,0 +1,71 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.title {
+  font-size: 24px;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #4f4f4f;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.login {
+  background-color: #2e7d32;
+  color: #fff;
+}
+
+.btn.register {
+  background-color: #ffffff;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
